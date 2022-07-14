@@ -1,0 +1,29 @@
+a {
+    clear: both;
+    margin-top: 10px;
+    font-size: 2em;
+}
+
+.text {
+    margin: 0;
+    text-align: center;
+}
+
+.block {
+    border: 2px solid black;
+    width: calc(33.33% - 35px);
+    height: 70px;
+    display: inline-block;
+    padding: 20px;
+    margin: 1em;
+    background-color: aquamarine;
+    border-radius: 30px;
+    box-sizing: border-box;
+
+}
+
+.block:hover {
+    transform: scale(1.05);
+    background-color: rgb(6, 179, 121);
+    box-shadow: 10px 5px 5px rgb(0, 71, 83)
+}
